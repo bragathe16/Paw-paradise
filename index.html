@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Store Website</title>
+    <link rel="stylesheet" href="about us.html">
+    <link rel="stylesheet" href="contact us.html">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-image: url(images/kitty.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 60%;
+        background-position: right;
+        background-color: #FDF0E8;
+
+    }
+
+    header {
+        background-color: rgb(237, 136, 153);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    nav ul li {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .logo {
+        height: 60px;
+        width: 90px;
+    }
+
+    .home {
+        display: flex;
+        gap: 100px;
+        font-size: x-large;
+        cursor: pointer;
+    }
+
+    .home:hover {
+        text-shadow: 3px 3px 10px black;
+        transition-timing-function: linear;
+        transition-duration: 1ms;
+        text-decoration: none;
+    }
+
+    .heading {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 30px;
+        margin-top: 80px;
+        font-size: 90px;
+    }
+
+    .para {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: x-large;
+        margin: 30px;
+        line-height: 40px;
+        color: black;
+    }
+
+    .shop {
+        padding: 15px;
+        border-radius: 10px;
+        background-color: rgb(237, 136, 153);
+        width: 150px;
+        margin: 30px;
+        border-color: rgb(237, 136, 153);
+        border: 0;
+        cursor: pointer;
+        font-size: medium;
+        font-weight: bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .shop:hover {
+        box-shadow: 3px 3px 5px black;
+        background-color: palevioletred;
+    }
+
+    button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    @media (max-width: 468px) {
+        body {
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            align-items: center;
+            text-align: center;
+            padding-bottom: 0px;
+        }
+
+        .logo {
+            height: 50px;
+            width: 75px;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 8px;
+        }
+
+        nav ul li a {
+            font-size: 16px;
+        }
+
+        .home {
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            font-size: large;
+            text-align: center;
+        }
+
+        .heading {
+            font-size: 40px;
+            margin: 20px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .para {
+            font-size: medium;
+            margin: 15px;
+            line-height: 28px;
+            text-align: center;
+        }
+
+        .shop {
+            width: 100px;
+            padding: 10px;
+            margin: 15px auto;
+            font-size: small;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .shop:hover {
+            box-shadow: 2px 2px 4px black;
+            background-color: palevioletred;
+        }
+
+        button a {
+            font-size: 12px;
+            padding: 0px;
+            display: inline-block;
+            text-align: center;
+        }
+    }
+</style>
+</body>
+<header>
+    <img class="logo" src="images/logo paw.png">
+    <nav>
+        <ul>
+            <div class="home">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+            </div>
+        </ul>
+    </nav>
+</header>
+<div>
+    <h1 class="heading">Welcome To <br>Paw Paradise</h1>
+    <p class="para">🐾 Paw Paradise is the ultimate destination for your feline friend! <br>From nutritious food and
+        cozy beds to fun toys, <br>we have everything to keep your cat happy and healthy. <br>Explore our collection and
+        give your cat the love they deserve!</p>
+    <button class="shop"><a href="shop.html">SHOP NOW</a></button>
+
+</html>

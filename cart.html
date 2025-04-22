@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #FCE5CD;
+    }
+
+    .main {
+        background-color: #e9ceb2;
+        width: 30%;
+        height: 400px;
+        margin-left: 550px;
+        margin-top: 120px;
+        border-radius: 15px;
+        padding: 10px 10px 30px 10px;
+        transition: 1.0s;
+    }
+
+    .main:hover {
+        transform: scale(1.1);
+    }
+
+    .title {
+        font-size: large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: darkred;
+        background-color: #FAFAF8;
+        padding: 10px;
+        width: 400px;
+        height: 20px;
+        border-radius: 5PX;
+
+    }
+
+    .price {
+        color: darkred;
+        font-size: large;
+        background-color: #FAFAF8;
+        padding: 10px;
+        width: 400px;
+        height: 20px;
+        border-radius: 5PX;
+    }
+
+    .buy {
+        width: 418px;
+        height: 40px;
+        background-color: #D95347;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .buy a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    .buy:hover {
+        opacity: 0.9;
+    }
+
+    h1 {
+        color: #D95347;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        background-color: #fafafa;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <h1>YOUR CART</h1>
+    <div class="main">
+        <div class="cart">
+            <center><img src="images/carrier.png" alt="Cat Travel Bag" height="250px" width="90%"></center>
+        </div>
+        <center>
+            <div class="title">Cat Travel Bag</div><br>
+            <div class="price">₹1,240</div><br>
+            <button class="buy"> <a href="login.html">BUY NOW</button></a>
+        </center>
+
+    </div>
+</body>
+
+</html>
